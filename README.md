@@ -4,12 +4,12 @@ This repository is the jarabot simulator workspace that
 allows testing of the robot's movements in RViz2 without 
 the physical jarabot hardware.
 
-## 구조
+## Package Structure
 
 - src/jarabot_sim
 - src/jarabot_sim_interfaces
 
-## 빌드 방법
+## Build Procedure
 
 ```bash
 cd jarabot_sim_ws
