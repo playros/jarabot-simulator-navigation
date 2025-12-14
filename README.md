@@ -2,8 +2,8 @@
 
 ## Author
 
-**Yonguk Cho**  
-Robotics Developer / ROS 2 Engineer  
+**Yonguk Cho** 
+Robotics Developer / ROS 2 Engineer 
 Creator of Jarabot Simulator
 
 
@@ -238,3 +238,4 @@ If you are looking for a ROS 2 mobile robot simulator with LiDAR and RViz2,
 Jarabot Simulator provides a clean, realistic, and extendable reference
 implementation suitable for education, research, and real-robot development.
 
+**Jarabot Simulator** (also known as **jarabot-simulator** or **jarabot simulator**)
