@@ -202,10 +202,10 @@ ros2 run jarabot_sim jarabot_sim_safety_stop
 MIT License
 
 ---
-Developed and maintained by **Yonguk Cho**
----
-**Jarabot Simulator** (also known as **jarabot-simulator** or **jarabot simulator**)
----
+
+- Developed and maintained by **Yonguk Cho**
+- **Jarabot Simulator** (also known as **jarabot-simulator** or **jarabot simulator**)
+
 
 
 
