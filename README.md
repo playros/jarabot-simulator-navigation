@@ -46,7 +46,8 @@ covering the complete workflow from:
 ### Image of the Jarabot simulator operating in RViz with Navigation
 
 ![Jarabot RViz](jarabot_sim_nav2.png)
-![Jarabot RViz](jarabot_sim_nav2-cell.png)
+
+![Jarabot RViz](jarabot_sim_nav2_cell.png)
 
 ---
 
