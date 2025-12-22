@@ -324,6 +324,21 @@ Why this is needed:
 
 ### Terminal 4 – Verify TF (Localization Check)
 
+This command must be executed before running ros2 run tf2_ros tf2_echo map odom.
+
+```bash
+cd ~/jarabot_sim_ws
+python3 src/tools/set_initialpose.py
+```
+
+set_initialpose.py is a utility script used to initialize the robot’s pose 
+for AMCL localization in ROS 2.
+
+#### What it does
+- Publishes a single message to the /initialpose topic
+- Sets the robot’s initial position and orientation in the map frame
+- Triggers AMCL to start publishing the map → odom TF
+
 ```bash
 ros2 run tf2_ros tf2_echo map odom
 ```
