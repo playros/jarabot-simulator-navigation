@@ -106,6 +106,15 @@ map_server:
 waypoint_follower:
   ros__parameters:
     use_sim_time: true
+    loop_rate: 20                 # 내부 업데이트 주기
+    stop_on_failure: false        # 중간에 한 점 실패해도 다음 점 계속
+    waypoint_task_executor_plugin: "wait_at_waypoint"
+
+    wait_at_waypoint:
+      plugin: "nav2_waypoint_follower::WaitAtWaypoint"
+      enabled: true
+      waypoint_pause_duration: 0.0   # 각 웨이포인트 도착 후 멈춤(초). 2.0 주면 임무 느낌 좋음
+
 
 ################################################################################
 # Costmaps
